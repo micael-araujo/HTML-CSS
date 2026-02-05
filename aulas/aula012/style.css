@@ -1,0 +1,24 @@
+body {
+  margin: 20px;
+}
+
+ul {
+  list-style: square;
+}
+
+ol {
+  list-style: none;
+}
+
+dt {
+  color: red;
+}
+
+dd {
+  color: green;
+}
+
+ul, ol, dl, dd, dt {
+  margin: 0px;
+  padding: 0px;
+}

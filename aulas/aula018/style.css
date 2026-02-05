@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 20px 0px;
+  padding: 10px;
+  font-size: 3rem;
+  grid-column: 1 / -1;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  max-width: 60ch;
+  font-size: 1.3rem;
+  align-self: center;
+}
+
+.cover img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+@media (max-width: 700px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen {
+  h1 {
+    background-color: #d8d8d8;
+  }
+}

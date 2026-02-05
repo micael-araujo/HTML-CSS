@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 1200px;
+}
+
+.container {
+  border: 1px solid #ccc;
+  margin-top: 40px;
+  padding: 20px 20px 40px 20px;
+}
+
+span {
+  position: relative;
+  background-color: #e7e7e7;
+  border: 1px solid #000000;
+  padding: 10px;
+  top: -20px;
+}

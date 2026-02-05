@@ -1,0 +1,16 @@
+div {
+  background-color: #84e;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: 5px solid black;
+  margin: 30px;
+}
+
+p {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  margin: 20px;
+}

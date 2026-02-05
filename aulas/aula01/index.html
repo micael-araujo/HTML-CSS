@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Origamid aula 01</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+
+        a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="texto">Ola, Mundo!</h1>
+    <p>Clique no título e veja a mágica acontecer.</p>
+    <p><a href="/aula02/index.html">Clique aqui</a> para voltar a aula 02.</p>
+</body>
+<script>
+    function mudar () {
+        texto.style.color = "red";
+    }
+    texto.addEventListener("click", mudar);
+</script>
+</html>
