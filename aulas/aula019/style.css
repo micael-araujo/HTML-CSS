@@ -5,9 +5,31 @@ body {
 
 label {
   display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 input {
   font-size: 1.2rem;
   padding: 10px;
+}
+
+button {
+  display: block;
+  margin-top: 30px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.checkbox, .radio {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.checkbox label, .radio label {
+  display: inline-block;
+  margin: 0px;
 }
